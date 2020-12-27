@@ -1,2 +1,2 @@
 # reaktors
-Code playground
+Some ReactJS code playground
