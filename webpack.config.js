@@ -34,16 +34,20 @@ module.exports = {
       },{
         loader: 'postcss-loader',
         options: {
-          ident: 'postcss',
-          plugins: () => [
-            tailwindcss({}),
-            autoprefixer({})
-          ]
+          postcssOptions: {
+            plugins: [
+              tailwindcss({}),
+              autoprefixer({})
+            ]
+          }
         }
       }]
     },{
       test: /\.(png|jpe?g|gif)$/,
-      loader: 'url-loader?limit=10000&name=img/[name].[ext]'
+      use: [{
+        loader: 'url-loader',
+        options: {}
+      }]
     },
     {
       test: /\.(woff|woff2|eot|ttf|otf)$/,
