@@ -1,0 +1,14 @@
+{
+  "products": [
+    { "id": 1, "name": "product name", "categoryId": 1, "brandId": 1 , "image": "http://via.placeholder.com/120x160"}
+  ],
+  "categories": [
+    { "id": 1, "name": "Clothes", "description": "Lorem Ipsum" },
+    { "id": 2, "name": "Books", "description": "Lorem Ipsum" }
+  ],
+  "users": [
+    { "id": 1,"name": "user", "mobile": "1234567890" }
+  ],
+  "login":
+    { "key": "63e780c3f321d13109c71bf81805476e" }
+}
