@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Router>
       <div>
-        {/* <Header /> */}
+        <Header />
       </div>
 
       <Switch>

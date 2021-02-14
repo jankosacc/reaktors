@@ -10,8 +10,8 @@ import Icon from '../../atoms/Icon/Icon';
 const Loading = () => {
   return (
     <React.Fragment>
-      <Label>Search</Label>
-      <Input type="search" />
+      <Label text="Search" />
+      <Input type='search' />
       <Button><Icon><FaSearch /></Icon></Button>
     </React.Fragment>
   );
